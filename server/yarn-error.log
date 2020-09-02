@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\phongdang\AppData\Local\Microsoft\WindowsApps;C:\Users\phongdang\AppData\Roaming\npm;C:\Users\phongdang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phongdang\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Project\Personal\chat-app\server\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "socket-io-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "kamoman <kaidi.mohammed1@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "moment": "^2.25.3",
+      "nodemon": "^2.0.3",
+      "socket.io": "^2.3.0"
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
